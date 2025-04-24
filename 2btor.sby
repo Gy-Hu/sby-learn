@@ -1,0 +1,10 @@
+[options]
+mode bmc
+
+[engines]
+btor btormc
+
+[script]
+read_verilog -sv /home/huguangyu/sby-learn/counter.v
+prep -top counter
+chformal -early
