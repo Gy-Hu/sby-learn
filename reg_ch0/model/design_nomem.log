@@ -1,0 +1,17 @@
+
+ /----------------------------------------------------------------------------\
+ |                                                                            |
+ |  yosys -- Yosys Open SYnthesis Suite -- Symbiotic EDA Edition [20201006A ] |
+ |                                                                            |
+ |  Copyright (C) 2012 - 2020 Symbiotic GmbH                                  |
+ |                                                                            |
+ |  Licensed to: Symbiotic EDA                                                |
+ |  Licensee contact: Matt Venn                                               |
+ |                                                                            |
+ \----------------------------------------------------------------------------/
+
+ Yosys 0.9+3617 (git sha1 fd306b0, clang 3.8.0-2ubuntu4 -fPIC -Os)
+
+
+-- Executing script file `../model/design_nomem.ys' --
+ERROR: Can't open input file `counter.v' for reading: No such file or directory

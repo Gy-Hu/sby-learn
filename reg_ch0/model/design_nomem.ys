@@ -1,0 +1,15 @@
+# running in reg_ch0/src/
+read_verilog -sv counter.v
+prep -top counter
+chformal -early
+
+memory_map
+async2sync
+chformal -assume -early
+chformal -live -fair -cover -remove
+opt_clean
+setundef -anyseq
+opt -keepdc -fast
+check
+hierarchy -simcheck
+write_ilang ../model/design_nomem.il

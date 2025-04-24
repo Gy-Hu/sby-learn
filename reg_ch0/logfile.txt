@@ -1,0 +1,8 @@
+SBY 17:16:41 [reg_ch0] engine_0: abc pdr
+SBY 17:16:41 [reg_ch0] nomem: starting process "cd reg_ch0/src; yosys -ql ../model/design_nomem.log ../model/design_nomem.ys"
+SBY 17:16:41 [reg_ch0] nomem: ERROR: Can't open input file `counter.v' for reading: No such file or directory
+SBY 17:16:41 [reg_ch0] nomem: finished (returncode=1)
+SBY 17:16:41 [reg_ch0] nomem: job failed. ERROR.
+SBY 17:16:41 [reg_ch0] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 17:16:41 [reg_ch0] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 17:16:41 [reg_ch0] DONE (ERROR, rc=16)

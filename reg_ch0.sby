@@ -1,0 +1,11 @@
+[options]
+mode prove
+
+[engines]
+abc pdr
+
+[script]
+read_verilog -sv counter.v
+prep -top counter
+chformal -early
+
